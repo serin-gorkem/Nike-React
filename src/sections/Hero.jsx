@@ -1,5 +1,4 @@
 import Button from "../Components/Button";
-
 import { useState } from "react";
 import ShoeCard from "../Components/ShoeCard";
 import { arrowRight } from "../assets/icons";
@@ -7,7 +6,6 @@ import { bigShoe1 } from "../assets/images";
 import { shoes, statistics } from "../constants";
 
 const Hero = () => {
-
   const [bigShoeImg, setbigShoeImg] = useState(bigShoe1);
 
   return (
@@ -39,7 +37,6 @@ const Hero = () => {
             <div key={stat.label}>
               <p className="text-4xl font-palanquin font-bold"> {stat.value}</p>
               <p className="leading-7 font-montserrat text-slate-gray">
-                {" "}
                 {stat.label}
               </p>
             </div>

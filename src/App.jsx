@@ -1,7 +1,7 @@
 import { CustomerReviews, Footer,Hero,PopularProducts,Services,SpecialOffer,Subscribe,SuperQuality } from "./sections";
 import Nav from "./Components/Nav";
 const App = () => (
-  <main className="relative">
+  <main className="relative  animate-fade-in">
     <Nav/>
     <section>
     <section className="xl:padding-l wide:padding-r padding-b"></section>
