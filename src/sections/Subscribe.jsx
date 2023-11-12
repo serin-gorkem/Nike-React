@@ -15,5 +15,4 @@ const Subscribe = () => {
     </section>
   );
 };
-
 export default Subscribe;
